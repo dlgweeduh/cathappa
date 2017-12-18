@@ -1,7 +1,7 @@
 /*
 #3fc8e6 = blue
 #df4e5e = red
-#fbe057 = yellow
+#facb1b = yellow
 */
 body {
 	font-family: 'dosis', sans-serif;
@@ -27,13 +27,13 @@ a {
 	-webkit-transition: all 0.3s;
   	-moz-transition: all 0.3s;
   	transition: all 0.3s;
-    color: #fbe057;
+    color: #df4e5e;
 }
 a:hover, a:focus, a:active, a:visited {
     text-decoration: none;
 }
 a:hover {
-    color: #df4e5e
+    color: #facb1b;
 }
 
 /* Buttons override */
@@ -42,7 +42,7 @@ a:hover {
     font-weight: 600;
 }
 .btn:hover {
-    color: #fbe057;
+    color: #facb1b;
 }
 .btn-lg {
 	padding: 15px 40px;
@@ -160,6 +160,9 @@ a:hover {
 	padding: 20px;
 	margin-top: 30px;
 }
+.prize {
+    padding: 10px;
+}
 .feature span {
 	font-size: 5em;
     color: #016cc7;
@@ -169,6 +172,9 @@ a:hover {
 }
 
 .icon-dpLogo:before {
+  content: "\e95c";
+}
+.icon-uoftm:before {
   content: "\e900";
 }
 
@@ -202,15 +208,21 @@ ul.speaker-social li a {
 ul.speaker-social li a:hover {
 	text-decoration: none;
 }
-a span.ti-facebook {
+a span.ti-world {
 	color: #3b5998;
+}
+a span.ti-youtube {
+    color: #FF0000;
+}
+a span.ti-facebook {
+    color: #3b5998;
 }
 a span.ti-twitter-alt {
 	color: #4099ff;
 }
 
-.tickets {
-	background-color: #fbe057;
+.tickets {    
+	background-color: #facb1b;
 }
 .tickets .price {
 	font-size: 4em;
